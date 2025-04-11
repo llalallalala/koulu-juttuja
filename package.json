@@ -1,0 +1,20 @@
+{
+  "name": "koulu-juttuja",
+  "version": "1.0.0",
+  "main": "olio-tehtävät.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "s": "node olio-tehtävät.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/llalallalala/koulu-juttuja.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/llalallalala/koulu-juttuja/issues"
+  },
+  "homepage": "https://github.com/llalallalala/koulu-juttuja#readme",
+  "description": ""
+}

@@ -2,7 +2,6 @@ import * as React from 'react'
 
 function Kayttajakortti(tiedot)
 {
-    console.log(tiedot.lista)
     return(
         <div>
             <h1>Hei, {tiedot.nimi}!</h1>

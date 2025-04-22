@@ -1,0 +1,31 @@
+.uusiTapahtumaDiv>input,
+.uusiTapahtumaDiv>select {
+    background-color: rgb(100,100,100);
+    color: white;
+    min-height: 30px;
+    width: 50vh;
+    border-radius: 5px;
+    border: solid black 1px;
+    transition: transform 0.1s ease;
+}
+
+.uusiTapahtumaDiv>input:hover,
+.uusiTapahtumaDiv>select:hover {
+    transform: scale(1.01);
+}
+
+.uusiTapahtumaDiv>button{
+    background-color: rgb(45,45,45);
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    min-height: 45px;
+    width: 50vh;
+    border: solid black 1px;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+
+.uusiTapahtumaDiv>button:hover {
+    border: dotted red 1px;
+}

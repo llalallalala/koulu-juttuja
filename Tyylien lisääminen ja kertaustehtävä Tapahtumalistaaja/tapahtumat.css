@@ -1,0 +1,52 @@
+.tapahtumatDiv {
+    font-weight: bolder;
+}
+
+.tapahtumatDiv>#nollaTapahtumaa {
+    color: rgba(255, 255, 255, 0.351);
+}
+
+.tapahtuma {
+    padding: 20px;
+    margin: 20px;
+    list-style: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(100,100,100);
+}
+
+.Urheilu {
+    border: solid rgb(43, 226, 144) 2px;
+}
+
+.Musiikki {
+    border: solid purple 2px;
+}
+
+.Opiskelu {
+    border: solid beige 2px;
+}
+
+.tapahtumaTxt {
+    color: white;
+    padding: 10px;
+    text-shadow: 1px 1px black, -1px -1px black, -1px 1px black, 1px -1px black;
+}
+
+.poistaNappi {
+    border: solid black 2px;
+    min-height: 45px;
+    min-width: 100px;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: black;
+    background-color: rgb(255, 69, 69);
+}
+
+.tapahtumaHaku {
+    margin-top: 40px;
+    background-color: rgb(60, 50, 50);
+    color: white;
+    min-height: 30px;
+    min-width: 100px;
+    border-radius: 5px;
+}

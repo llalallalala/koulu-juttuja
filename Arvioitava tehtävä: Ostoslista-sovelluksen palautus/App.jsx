@@ -1,6 +1,7 @@
 import * as React from 'react'
 import { Header } from './header'
 
+import './styles.css'
 
 function App() {
   const [value, state] = React.useState([])

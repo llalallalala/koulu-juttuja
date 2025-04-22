@@ -1,0 +1,48 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header {
+    width: 100%;
+    align-content: center;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.OstosDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+.btnOstos {
+    background-color: blue;
+    min-width: 10%;
+    min-height: 45px;
+    border-radius: 5px;
+    color: white;
+    border: white solid 2px;
+    transition: background-color 0.2s ease;
+}
+
+.btnOstos:hover {
+    background-color: red;
+}
+
+.OstosForm>input {
+    min-height: 45px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    min-width: 70%;
+    padding: 0px;
+    text-align: center;
+    margin-left: 10%;
+}
+
+.OstosForm>button {
+    min-height: 45px;
+    min-width: 45px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    padding: 0px;
+    margin: auto;
+}
